@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1a1a2e;
+  color: #e6e6e6;
+  cursor: url('https://cdn-icons-png.flaticon.com/32/4233/4233846.png'), auto;
+}
+
+button {
+  cursor: url('https://cdn-icons-png.flaticon.com/32/4233/4233846.png'), pointer !important;
+}
+
+.app-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 30px;
+}
+
+.header p {
+  margin-top: 0;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+h1 {
+  color: #fca311;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.discover-button {
+  background-color: #fca311;
+  color: #14213d;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: url('https://cdn-icons-png.flaticon.com/32/4233/4233846.png'), pointer;
+  margin-top: 20px;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.discover-button:hover {
+  background-color: #ffb703;
+  transform: scale(1.05);
+}
+
+/* Layout for the main content */
+.main-content {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.discovery-section {
+  flex: 2;
+  background-color: #16213e;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.character-image {
+  max-width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 3px solid #fca311;
+  margin-bottom: 15px;
+}
+
+.attributes {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.attr-button {
+  background-color: #0f3460;
+  color: white;
+  border: 1px solid #e94560;
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: url('https://cdn-icons-png.flaticon.com/32/4233/4233846.png'), pointer;
+  transition: background-color 0.2s;
+}
+
+.attr-button:hover {
+  background-color: #e94560;
+}
+
+/* --- BAN LIST STYLING --- */
+.ban-list-sidebar {
+  flex: 1;
+  background-color: #16213e;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+  min-height: 400px;
+}
+
+.ban-instructions {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #a0a0a0;
+}
+
+.banned-items-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.banned-items-button {
+  background-color: #e94560;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: url('https://cdn-icons-png.flaticon.com/32/4233/4233846.png'), pointer;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banned-items-button:hover {
+  background-color: #ff4d6d;
+}
+
+.placeholder {
+  color: #a0a0a0;
+  font-size: 1.2rem;
+}
